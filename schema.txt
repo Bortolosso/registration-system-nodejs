@@ -1,0 +1,13 @@
+SignUp
+
+{
+"nome": "João",
+"email": "joao@mail.com",
+"senha": "abcd1234",
+"telefones": [{
+ "numero": "123456789",
+ "ddd": "11"
+}]
+}
+
+//
