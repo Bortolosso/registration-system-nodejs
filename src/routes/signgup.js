@@ -5,7 +5,7 @@ const controller = require("../controllers/signup");
 
 require("../models/Signup");
 
-router.post("/", controller.CreateUser);
+router.post("/", controller.verifyToken ,controller.CreateUser);
 
 router.put("/:signUpId", controller.EditUser);
 

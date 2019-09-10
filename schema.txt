@@ -1,7 +1,7 @@
 SignUp
 
 {
-"nome": "João",
+"nome": "João Vitor",
 "email": "joao@mail.com",
 "senha": "abcd1234",
 "telefones": [{

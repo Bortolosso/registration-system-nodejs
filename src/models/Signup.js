@@ -22,15 +22,11 @@ const SignUpSchema = new Schema({
 
     date: {
         type: Date,
-        default: Date.now()
+        default: Date
     },
-
-    dateUpdate: {
-        type: Date,
-        default: Date.now()
-    }
 });
 
 const SignUp = mongoose.model("SignUp", SignUpSchema);
 
-module.exports = SignUp;
+module.exports = SignUp; 
+

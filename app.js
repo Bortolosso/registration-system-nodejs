@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const path = require("path");
 
-const CONST = require("./src/constants/const")
+const CONST = require("./src/constants/const");
 const SignUp = require("./src/routes/signgup");
 const SignIn = require("./src/routes/signin");
 
